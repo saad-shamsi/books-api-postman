@@ -22,6 +22,7 @@ function GetQuote() {
       <div className="tet-3xl font-semibold text-center m-auto p-8 mx-96 rounded-2xl text-white cursor-pointer bg-cyan-700 duration-300 hover:translate-y-2">
         {` Quote: ${data.content}`}
       </div>
+      <div className="italic text-3xl font-semibold text-center mt-8">{`~${data.author}`}</div>
     </div>
   );
 }
